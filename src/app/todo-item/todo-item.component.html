@@ -1,0 +1,4 @@
+<li class="todo-item">
+  <p class="todo-item-name" (click)="onToggle()" [class.completed]="todo.completed">{{todo.title}}</p>
+  <button (click)="onDelete()">delete</button>
+</li>

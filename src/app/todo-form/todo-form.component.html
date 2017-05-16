@@ -1,0 +1,4 @@
+<form (ngSubmit)="onSubmit(); todoForm.reset()" #todoForm="ngForm">
+  <input type="text" name="title" [(ngModel)]="title" placeholder="Todo title" required>
+  <button type="submit" [disabled]="todoForm.form.invalid" >Submit</button>
+</form>

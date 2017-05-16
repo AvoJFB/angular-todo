@@ -1,0 +1,8 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-item-name {
+    display: inline;
+    cursor: pointer;
+}
